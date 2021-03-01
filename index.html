@@ -118,9 +118,9 @@
   const Calculator = () => {
     const [display, setDisplay] =  React.useState("");
     const [error, setError] = React.useState("");
-    const [showAd, toggleAd] = React.useState(true);
+    const [showAd, toggleAd] = React.useState(false);
     const [history, setHistory] = React.useState([]);
-    const [showHist, toggleHist] = React.useState(true);
+    const [showHist, toggleHist] = React.useState(false);
     const histRef = React.useRef();
 
     React.useEffect (() => {
